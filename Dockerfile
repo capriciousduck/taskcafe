@@ -17,4 +17,5 @@ RUN go run cmd/mage/main.go backend:genFrontend backend:genMigrations backend:bu
 FROM alpine:latest
 WORKDIR /root/
 COPY --from=backend /usr/src/app/dist/taskcafe .
+ENV TASKCAFE_SERVER_HOSTNAME=0.0.0.0:$PORT
 CMD ["./taskcafe", "web"]
