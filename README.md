@@ -1,3 +1,4 @@
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 <p align="center">
  <img width="450px" src="./.github/taskcafe-full.png" align="center" alt="Taskcafe logo" />
 </p>
